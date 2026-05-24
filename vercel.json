@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/login", "destination": "/index.html" },
+    { "source": "/dashboard", "destination": "/index.html" },
+    { "source": "/planner", "destination": "/index.html" },
+    { "source": "/focus", "destination": "/index.html" },
+    { "source": "/analytics", "destination": "/index.html" },
+    { "source": "/assistant", "destination": "/index.html" },
+    { "source": "/goals", "destination": "/index.html" },
+    { "source": "/settings", "destination": "/index.html" }
+  ]
+}
