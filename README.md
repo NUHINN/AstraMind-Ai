@@ -5,7 +5,8 @@ AstraMind AI is a frontend-only student productivity web application designed as
 ## Run
 
 ```bash
-node server.mjs
+npm install
+npm run dev
 ```
 
 Then open:
@@ -16,7 +17,19 @@ http://localhost:5173
 
 On Windows, you can also double-click `launch-app.bat`.
 
-Do not open `index.html` directly with a `file://` URL. Chrome may block the JSX/module loading path for this React app, which leaves only the background visible.
+Do not open `index.html` directly with a `file://` URL. This is a Vite React app and should be served through the Vite dev server locally or built by Vercel in production.
+
+## Deploy
+
+Vercel should use:
+
+```text
+Build Command: npm run build
+Output Directory: dist
+Install Command: npm install
+```
+
+These are also declared in `vercel.json`.
 
 ## Included Surfaces
 

@@ -2,6 +2,7 @@ import React, { createContext, useContext, useEffect, useMemo, useRef, useState 
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, HashRouter, Link, NavLink, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import "./styles.css";
 import {
   Area,
   AreaChart,
